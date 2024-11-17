@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: 42%;
+    margin-top: 10%;
+    background-color: azure;
+}
+
+header {
+    background-color: azure;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.mae {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    background-color: azure;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+
+form input {
+    padding: 10px;
+}
+form button {
+    background-color: #28a745;
+    margin-top: 3%;
+    margin-left:30%;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+
+
+
+
+
